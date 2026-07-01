@@ -1,0 +1,17 @@
+package StrategyPatternExample;
+
+public class StrategyPatternTest {
+
+    public static void main(String[] args) {
+
+        PaymentContext context = new PaymentContext();
+
+        // Credit Card Payment
+        context.setPaymentStrategy(new CreditCardPayment());
+        context.makePayment(5000);
+
+        // PayPal Payment
+        context.setPaymentStrategy(new PayPalPayment());
+        context.makePayment(2500);
+    }
+}

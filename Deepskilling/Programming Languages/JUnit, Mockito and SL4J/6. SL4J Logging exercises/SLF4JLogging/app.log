@@ -1,0 +1,4 @@
+10:56:05.807 [main] DEBUG com.example.AppenderExample - Debug message
+10:56:05.810 [main] INFO  com.example.AppenderExample - Information message
+10:56:05.810 [main] WARN  com.example.AppenderExample - Warning message
+10:56:05.810 [main] ERROR com.example.AppenderExample - Error message
